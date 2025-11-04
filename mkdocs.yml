@@ -30,5 +30,3 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
-  - markdown_include.include:
-      base_path: docs
