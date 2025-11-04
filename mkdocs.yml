@@ -1,0 +1,32 @@
+site_name: My Docs
+site_url: https://example.com/docs
+theme:
+  features:
+    - navigation.footer
+  font:
+    text: Noto Sans Manichaean
+    code: Roboto Mono
+  name: material
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+  
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
